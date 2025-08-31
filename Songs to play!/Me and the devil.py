@@ -1,6 +1,6 @@
 import time
 
-def printlyrics():
+def lyrics():
     lines = [
         ("Early this morning", 0.06, 3.0),
         ("When you knocked upon my door", 0.055, 5.0),
@@ -22,4 +22,4 @@ def printlyrics():
         time.sleep(pause)
 
 if __name__ == "__main__": 
-    printlyrics()   
+    lyrics()   
