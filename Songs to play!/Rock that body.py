@@ -1,6 +1,6 @@
 import time
 
-def printlyrics():
+def lyrics():
     lines = [
         ("I wanna da-", 0.06),
         ("I wanna dance in the lights", 0.05),
@@ -28,4 +28,5 @@ def printlyrics():
         time.sleep(delays[i])
 
 if __name__ == "__main__":
-    printlyrics()
+    lyrics()
+
